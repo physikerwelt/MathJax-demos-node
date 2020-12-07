@@ -7,6 +7,9 @@
     "mathjax-full": "^3.0.0",
     "yargs": "^11.0.0"
   },
+  "scripts": {
+    "start": "node -r esm component/mml2chtml-page test.html > out.html"
+  },
   "devDependencies": {
     "ajv": "^6.4.0",
     "mem": "^4.0.0",
